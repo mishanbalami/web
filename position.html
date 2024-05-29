@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS position</title>
+
+    <style>
+      .circle {
+        width: 100px;
+        height: 100px;
+        background-color: red;
+        border-radius: 50%;
+        position: fixed;
+        bottom: 1rem;
+        right: 1rem;
+        top: 1rem;
+        left: 1rem;
+      }
+      .sticky {
+        position: sticky;
+        top: 1rem;
+        background-color: red;
+      }
+      .parent{
+        width: 100%;
+        height: 400%;
+        background-color: grey;
+        position: relative;
+      }
+      .child{
+        width: 200%;
+        height: 200%;
+        background-color: red;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translateX(-50%);
+      }
+    </style>
+  </head>
+  <body>
+<!--fixed
+sticky
+relative
+absolute
+-->
+<div class="parent">
+<div class="child"></div>
+</div>
+<div class="circle"></div>
+
+<div class="sticky">hello world</div>
+
+<h2>
+Lorem ipsum dolor, sit amet consectetur adipisicing elit. Natus veritatis,
+fugit reiciendis illo recusandae expedita labore consequuntur vero, ut
+cumque aspernatur commodi blanditiis itaque id cum est cupiditate,
+consequatur odit earum tenetur necessitatibus. Mollitia harum, sapiente
+omnis vel labore ipsum adipisci provident sunt praesentium, magni autem
+facere odit molestias dignissimos cupiditate esse fugit officiis facilis
+accusamus expedita. Nemo recusandae dolorem eum qui consectetur error
+nulla consequuntur facilis porro atque, rerum reprehenderit natus autem
+eos nihil quos ex pariatur. Corporis harum distinctio natus dolorum
+doloremque cumque, esse ullam mollitia veritatis quibusdam saepe. Quos,
+voluptatum optio tempora, ea quibusdam, voluptas dicta consequuntur
+inventore repellendus incidunt veritatis! Deserunt quas dolorum esse,
+vitae animi magnam voluptatem magni vel ab quo quisquam sit eos sint porro
+unde soluta rem nobis delectus error aut explicabo optio, nostrum repellat
+perspiciatis. Dolorum dicta accusamus sequi facere, quaerat officia earum
+adipisci illo non odit iure tempore expedita numquam est, neque libero
+dolor error mollitia esse excepturi repudiandae delectus explicabo.
+Asperiores blanditiis ipsa nobis maiores, quidem ab adipisci quo possimus
+cumque impedit modi reprehenderit earum doloremque alias similique
+pariatur deleniti sed eligendi vitae cupiditate porro qui voluptatem. Quas
+illo unde amet provident molestias, dolorum sunt explicabo praesentium
+officia, excepturi voluptatem similique, nulla dolores perferendis placeat
+eaque! Impedit, dolor esse, fugit odit doloremque eveniet dolorum
+quibusdam sequi tenetur sit aut omnis aspernatur corporis labore adipisci
+eos, facere incidunt dolore aliquid placeat voluptatibus exercitationem
+magnam! Commodi ex aut possimus aliquam incidunt. Qui vero voluptatem
+eaque recusandae animi. 
+</h2>
+  </body>
+</html>

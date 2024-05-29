@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            border-radius: .75rem;
+            max-width: 400px;
+            margin: 0 auto;
+            box-shadow: 12px 4px 12px -3px rgba(0, 0, 0,.12);
+            padding: 58px;
+        }
+    </style>
+</head>
+<body>
+   <div>
+    <form action="">
+        <h2>GOT A QUESTION? SEND AN ENQUIRY</h2>
+        <div>
+            <label for="name">Name</label>
+           <input type="text" id="name">
+        </div>
+
+        <div>
+            <label for="email">Email</label>
+           <input type="email" id="name">
+        </div>
+
+        <div>
+            <label for="phone">Mobile Number</label>
+           <input type="number" id="phone">
+        </div>
+
+        <div>
+            <label for="alternatenumber">Alternate Number</label>
+           <input type="number" id="alternatenumber">
+        </div>
+        <div>
+            <label for="message">choose Course</label>
+            <select name="Course" id="Course">
+                <option value="webdesign">Web Design</option>
+                <option value="uiux">UI/UX</option>
+            </select>
+        </div>
+        <div>
+            <label for="school">School/ Collage</label>
+           <input type="text" id="school">
+        </div>
+        <div>
+            <label for="othercourses">If other courses</label>
+           <input type="text" id="othercourses">
+        </div>
+        <div>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" rows="4"></textarea>
+         
+        </div>
+        <button type="submit">submit</button>
+    </form>
+   </div>
+   
+</body>
+</html>
